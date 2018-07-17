@@ -131,7 +131,7 @@ db=im2bw(d,0.3);
 s6=subplot(3,3,6);imshow(db);
 title('Binarization');
 
-% T
+% load the panda head template
 xm=imread('.\xm.png');
 newxm=imresize(xm,1.75*size(cropf,1)/size(xm,1)); % Modify size of the panda head template according to size of recognized face.
 newxm=rgb2gray(newxm);
