@@ -33,7 +33,7 @@ Use MATLAB to achieve panda head meme auto-generation from your own facial photo
  - ```'mode', 'pixelate'```: pixelate style (4-level gray).
  - ```'mode', 'b&w'``` only black and white (binarizatoin). 
  - optional parameter/value pairs: ```'textrow1', string```. Add first phrase below panda head.
- - ```'textrow1',string``` : Add another sentence.
+ - ```'textrow2',string``` : Add another sentence.
  
 ### Example
 ```matlab
