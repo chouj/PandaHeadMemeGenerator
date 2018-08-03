@@ -30,7 +30,7 @@ Use MATLAB to achieve panda head meme auto-generation from your own facial photo
  - ```'textrow1',string``` : Add another sentence.
  
 ### Example
-```
+```matlab
      PandaHeadGenerator(...
         'c:\o3.jpg',...
         'c:\users\lenovo\downloads\xm.png',...
@@ -39,8 +39,24 @@ Use MATLAB to achieve panda head meme auto-generation from your own facial photo
         'textrow1','搬砖工人的',...
         'textrow2','谜之微笑');
  ```
+
+## Acknowledgement
+
+[Image rotation by Matlab without using imrotate](https://stackoverflow.com/a/26974830)
+
+[图像处理中的matlab使用]https://whuhan2013.github.io/blog/2016/12/19/gray-change-space/
+
+[对函数的输入进行检查和解析](https://zhuanlan.zhihu.com/p/25154612)
+
+[Matlab图像处理-灰度变换](https://linxid.github.io/2018/04/21/Matlab%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%81%B0%E5%BA%A6%E5%8F%98%E6%8D%A2/)
+
+## Templates
+
+[如何用PhotoShop制作真人头像表情包](https://blog.csdn.net/CHIMO_HS/article/details/78090622)
+
+[如何用ps将朋友的照片制作成熊猫人表情包？](https://www.zhihu.com/question/58800555)
  
- ###### The title image in Github page can be produced by running ```PandaHeadMemeGeneratorDemo.m```.
+###### The title image in Github page can be produced by running ```PandaHeadMemeGeneratorDemo.m```.
 
 ## Author 
 https://github.com/chouj
