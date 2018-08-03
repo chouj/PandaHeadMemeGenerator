@@ -16,6 +16,12 @@ Use MATLAB to achieve panda head meme auto-generation from your own facial photo
  - Gray style, 4-level gray (pixelate style) or binarization style (black and white) can be choosen by using optional parameter "mode" (See Usage).
  - At most two rows of text can be added below PandaHead to make it a final meme.
 
+## Requirements
+
+#### [Computer Vision System Toolbox](https://www.mathworks.com/products/computer-vision.html)
+
+#### [export_fig](https://www.mathworks.com/matlabcentral/fileexchange/23629-export_fig)
+
 ## Usage
 
 ### Function PandaHeadGenerator.m
@@ -49,6 +55,8 @@ Use MATLAB to achieve panda head meme auto-generation from your own facial photo
 [对函数的输入进行检查和解析](https://zhuanlan.zhihu.com/p/25154612)
 
 [Matlab图像处理-灰度变换](https://linxid.github.io/2018/04/21/Matlab%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%81%B0%E5%BA%A6%E5%8F%98%E6%8D%A2/)
+
+[人脸检测与分割](http://www.ilovematlab.cn/thread-285080-1-1.html)
 
 ## Templates
 
