@@ -24,7 +24,7 @@ function PandaHeadGenerator(input_image,input_template,output_meme,varargin)
 %   parameter can be adjusted manually and repeatedly until satisfied.
 %
 % - At most two rows of text can be added below PandaHead to make it a
-%   final meme.
+%   final meme. The default font is Microsoft YaHei.
 %
 % Usage:
 %
