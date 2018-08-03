@@ -23,7 +23,7 @@ function PandaHeadGenerator(input_image,input_template,output_meme,varargin)
 % - In order to obtain the best effect of facial expression, a
 %   parameter can be adjusted manually and repeatedly until satisfied.
 %
-% - At mose two rows of text can be added below PandaHead to make it a
+% - At most two rows of text can be added below PandaHead to make it a
 %   final meme.
 %
 % Usage:
@@ -39,7 +39,7 @@ function PandaHeadGenerator(input_image,input_template,output_meme,varargin)
 %
 % - output_image: the filename for generated PandaHead meme. Its filename
 %   extension ".jpg" is required. For exmaple, 'E:\folder_one\kidmeme.jpg'.
-%   You can modified the last row of codes below to write it into other 
+%   You can modified associated codes below to write it into other 
 %   formats.
 %
 % - parameter/value pairs: 'mode', 'gray'. Default output mode is gray 
@@ -60,8 +60,8 @@ function PandaHeadGenerator(input_image,input_template,output_meme,varargin)
 %        'c:\users\lenovo\downloads\xm.png',...
 %        '.\me',...
 %        'mode','gray',...
-%        'textrow1','��ש���˵�',...
-%        'textrow2','��֮΢Ц');
+%        'textrow1','°á×©¹¤ÈËµÄ',...
+%        'textrow2','ÃÕÖ®Î¢Ð¦');
 %
 % The title image in Github page can be produced by running 
 %   PandaHeadMemeGeneratorDemo.m.
